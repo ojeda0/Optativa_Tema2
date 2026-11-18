@@ -30,7 +30,7 @@ public class PizzaEntity {
 	private double precio;
 	private boolean vegetariana;
 	private boolean vegana;
-	private boolean disponible;
+	private Boolean disponible;
 	
 	@JsonIgnore
 	@OneToMany(mappedBy = "pizza")
